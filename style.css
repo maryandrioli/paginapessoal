@@ -7,14 +7,23 @@
 }
 #profa {
     padding-right: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    color: rgb(98, 5, 98); 
 }
 
 .item {
     float:left;
-    padding:5px; 
+    padding:15px; 
 
 }
 a {
     text-decoration:none;
+    
+}
 
+a:hover { 
+    color: rgb(98, 5, 98) !important; 
+    font-size: 18px;
+    text-shadow: 2px 2px rgba(156, 9, 144, 0.18) ;
 }
