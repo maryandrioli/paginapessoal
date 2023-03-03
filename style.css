@@ -6,11 +6,14 @@
  
  }
  
- 
- body {
-     margin-left: 30px !important;
-     
+ #home {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around; 
+   
  }
+ 
  
  #home span img {
     width: 200px; 
@@ -20,9 +23,14 @@
  p {
      word-wrap: break-word;
    }
+
+ #p1 {
+    width: 70%; 
+ }
    
  #profa {
      padding-right: 30px;
+     padding-left: 30px; 
      font-family: 'Dancing Script', cursive;
      font-size: 26px;
      color: rgb(98, 5, 98); 
@@ -89,4 +97,36 @@
      flex-direction: row;
     
      
+ }
+
+ i {
+    color: rgb(8, 144, 67);
+    font-size: 30px;
+ }
+
+ #frases {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(63, 66, 65, 0.046);
+    
+    
+ }
+
+ #frase1 span {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 2;
+ }
+
+ #frase2 span {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    line-height: 2;
  }
