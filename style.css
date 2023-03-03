@@ -102,6 +102,8 @@
  i {
     color: rgb(8, 144, 67);
     font-size: 30px;
+    padding-left: 100px;
+    padding-right: 20px;
  }
 
  #frases {
@@ -118,10 +120,16 @@
  }
 
  #frase1 span {
-    margin-left: 20px;
+    margin-left: 10px;
     margin-right: 20px;
     text-align: center;
     line-height: 2;
+ }
+
+ #autor span {
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: left;
  }
 
  #frase2 span {
@@ -130,3 +138,9 @@
     text-align: center;
     line-height: 2;
  }
+
+ #rodape {
+    
+    background-color: rgba(109, 230, 190, 0.535);
+    text-align: center;
+ } 
