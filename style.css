@@ -32,6 +32,11 @@
      padding-left: 30px; 
    }
 
+   h2 {
+    word-wrap: break-word;
+     padding-right: 30px;
+     padding-left: 30px; 
+   }
  #p1 {
     width: 70%; 
     padding-right: 30px;
