@@ -14,7 +14,6 @@
    
  }
  
- 
  #home span img {
     width: 200px; 
     height: 200px; 
@@ -117,7 +116,7 @@
  i {
     color: rgb(8, 144, 67);
     font-size: 30px;
-    padding-left: 100px;
+    padding-left: 0px;
     padding-right: 20px;
  }
 
@@ -155,7 +154,20 @@
  }
 
  #rodape {
-    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: rgba(109, 230, 190, 0.535);
     text-align: center;
  } 
+
+ #rodape a {
+    text-decoration: none;
+    color: crimson;
+ }
+
+ #rodape i{
+    color: mediumvioletred;
+ }
+
+ 
